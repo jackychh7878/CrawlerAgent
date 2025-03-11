@@ -106,7 +106,7 @@ async def run_agent_with_streaming(user_input: str):
 
 async def main():
     st.title("WebCrawler AI Agentic RAG")
-    st.write("Ask any question about WebCrawler website.")
+    st.write("Ask any question about CUHK medical centre at https://www.cuhkmc.hk/tc")
 
     # Initialize chat history in session state if not present
     if "messages" not in st.session_state:
