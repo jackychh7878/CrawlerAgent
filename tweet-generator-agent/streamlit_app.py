@@ -183,7 +183,7 @@ if st.session_state.transcribed_text:
                             if not os.getenv("TWITTER_ACCESS_TOKEN"): missing_creds.append("TWITTER_ACCESS_TOKEN")
                             if not os.getenv("TWITTER_ACCESS_TOKEN_SECRET"): missing_creds.append("TWITTER_ACCESS_TOKEN_SECRET")
                             st.error(f"❌ Missing Twitter credentials: {', '.join(missing_creds)}")
-                            st.info("Please add these credentials to your .env file. See .env.example for instructions.")
+                            st.info("Please add these credentials to your .env file. See .env for instructions.")
                         else:
                             try:
                                 with st.spinner("🐦 Posting to Twitter (X)..."):

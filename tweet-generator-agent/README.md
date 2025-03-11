@@ -77,7 +77,7 @@ This agent is an **AI-driven Tweet Generator** designed to streamline the proces
 4. Create a `.env` file and configure API keys. Use `.env.example` as a template:
 
 ```bash
-   cp .env.example .env
+   cp .env .env
 ```
 
 ---

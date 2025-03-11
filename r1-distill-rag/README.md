@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 4. Set up environment variables by copying `.env.example` to `.env`:
 ```bash
-cp .env.example .env
+cp .env .env
 ```
 
 5. Configure your `.env` file:

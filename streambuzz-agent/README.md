@@ -125,8 +125,8 @@ pip install -Ur requirements.txt
 1. Set Environment Variable in `.env` file
 
     ```bash
-    # Copy .env.example to .env and set your keys in .env file
-    cp .env.example .env
+    # Copy .env to .env and set your keys in .env file
+    cp .env .env
     ```
 
 2. Serve the FastAPI app

@@ -214,7 +214,7 @@ async def crawl_parallel(urls: List[str], max_concurrent: int = 5):
 
 def get_pydantic_ai_docs_urls() -> List[str]:
     """Get URLs from Pydantic AI docs sitemap."""
-    sitemap_url = "https://ai.pydantic.dev/sitemap.xml"
+    sitemap_url = "https://www.xml-sitemaps.com/download/www.catomind.com-8e9aa7228/sitemap.xml?view=1"
     try:
         response = requests.get(sitemap_url)
         response.raise_for_status()

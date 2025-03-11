@@ -70,8 +70,8 @@ cd genericsuite-app-maker
 Create a `.env` file in the root directory of the project:
 
 ```bash
-# You can copy the .env.example file in the root directory of the project
-cp .env.example .env
+# You can copy the .env file in the root directory of the project
+cp .env .env
 ```
 
 The `.env` file should have the following content:

@@ -96,7 +96,7 @@ messages (
    cd ottomator-agents/~sample-python-agent~
 
    # Copy example environment file
-   cp .env.example .env
+   cp .env .env
 
    # Edit .env with your credentials
    nano .env  # or use your preferred editor
